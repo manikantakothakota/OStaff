@@ -1,18 +1,3 @@
-
-
-spring:
-  datasource:
-    password: root
-    url: jdbc:mysql://localhost:3306/ms_poc
-    username: root
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-
-
 eureka:
   client:
     register-with-eureka: true
